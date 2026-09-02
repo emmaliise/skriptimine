@@ -1,6 +1,6 @@
 #!/bin/bash
+# Skript väljastab sisselogitud kasutaja tervituse
 
 echo -n "Tere, "
-nimi="emmaliise"
-echo -n $nimi
+echo -n $USER
 echo "!"
